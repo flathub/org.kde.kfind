@@ -12,8 +12,10 @@
         "--filesystem=host",
         "--device=dri"
     ],
-    "cleanup": [
-        "/share/man"
+     "cleanup": [
+        "/share/doc",
+        "/share/man",
+        "/share/qlogging-categories6"
     ],
     "modules": [
         {
