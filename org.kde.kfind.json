@@ -19,6 +19,9 @@
         {
             "name": "kfind",
             "buildsystem": "cmake-ninja",
+            "post-install": [
+                "desktop-file-edit --remove-only-show-in=KDE /app/share/applications/${FLATPAK_ID}.desktop"
+            ],
             "sources": [
                 {
                     "type": "archive",
