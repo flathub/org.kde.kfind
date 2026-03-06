@@ -12,7 +12,7 @@
         "--filesystem=host",
         "--device=dri"
     ],
-     "cleanup": [
+    "cleanup": [
         "/share/doc",
         "/share/man",
         "/share/qlogging-categories6"
@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kfind-25.12.2.tar.xz",
-                    "sha256": "6ab4607fc2c9e3b3c04fa4a2be66074d65155c2fbf1c47717068883995fb3ba9",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kfind-25.12.3.tar.xz",
+                    "sha256": "b053eb551706de18d46a3b96867f2cbcca42346fe5448b3dc6c8d4bc07c72ac1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
